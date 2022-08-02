@@ -1,0 +1,25 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(3, auto) 14px repeat(3, auto);
+  gap: 10px;
+  align-items: center;
+}
+
+.form select {
+  color: #fff;
+  padding: 5px;
+  background-color: #333;
+  border: none;
+}
+
+.button {
+  grid-column: 3 / span 3;
+  color: #fff;
+  padding: 10px;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}

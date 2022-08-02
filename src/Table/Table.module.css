@@ -1,0 +1,45 @@
+.table {
+  padding: 15px;
+  margin-top: 30px;
+  border: 1px solid #161515;
+  background-color: #333;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  margin-top: 10px;
+  border-top: 1px solid #161515;
+  border-bottom: 1px solid #161515;
+}
+
+.link div {
+  margin-right: 10px;
+}
+
+.subBlock {
+  color: #1ccbb6;
+}
+
+.io {
+  color: #949494;
+}
+
+.deleteIcon {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  transform: translateY(2px);
+  transition: transform .2s ease-in-out;
+}
+
+.deleteIcon:hover {
+  transform: translateY(0px);
+}
